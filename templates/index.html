@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambridge Institute Chatbot</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 flex items-center justify-center h-screen">
+
+<div class="w-full h-full flex flex-col max-w-2xl mx-auto shadow-lg bg-gray-800 rounded-lg">
+    <!-- Chat Header -->
+    <div class="bg-blue-600 text-white text-lg font-semibold p-4 rounded-t-lg text-center">Cambridge Institute Chatbot</div>
+
+    <!-- Chat Box -->
+    <div id="chat-box" class="flex-1 p-4 overflow-y-auto space-y-2 text-white flex flex-col">
+        <div class="text-center text-gray-400 text-sm">
+            Welcome! I am your assistant for <strong>Cambridge Institute of Technology</strong>, located in <strong>KR Puram, Bangalore, Karnataka, India</strong>. Ask me anything about courses, admissions, and facilities!
+        </div>
+    </div>
+
+    <!-- Input Area -->
+    <div class="p-4 bg-gray-700 rounded-b-lg flex">
+        <input id="user-input" type="text" placeholder="Type your message..." class="flex-1 p-2 rounded-lg text-black" onkeypress="handleKeyPress(event)">
+        <button onclick="sendMessage()" class="ml-2 px-4 py-2 bg-blue-500 text-white rounded-lg">Send</button>
+    </div>
+</div>
+
+<script>
+    function handleKeyPress(event) {
+        if (event.key === "Enter") {
+            sendMessage();
+        }
+    }
+
+    function sendMessage() {
+        let userInput = document.getElementById("user-input").value.trim();
+        if (!userInput) return;
+
+        let chatBox = document.getElementById("chat-box");
+
+        // Add user message (right side)
+        let userMessage = document.createElement("div");
+        userMessage.className = "bg-blue-500 text-white p-2 rounded-lg max-w-xs self-end";
+        userMessage.textContent = userInput;
+        chatBox.appendChild(userMessage);
+
+        document.getElementById("user-input").value = "";
+
+        fetch("/chatbot", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ message: userInput })
+        })
+        .then(response => response.json())
+        .then(data => {
+            data.response.forEach(msg => {
+                // Add bot response (left side)
+                let botMessage = document.createElement("div");
+                botMessage.className = "bg-gray-600 text-white p-2 rounded-lg max-w-xs self-start";
+                botMessage.textContent = msg;
+                chatBox.appendChild(botMessage);
+            });
+
+            chatBox.scrollTop = chatBox.scrollHeight; // Auto-scroll to latest message
+        })
+        .catch(error => console.error("Error:", error));
+    }
+</script>
+
+</body>
+</html>

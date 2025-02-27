@@ -1,0 +1,653 @@
+{
+    "intents": [
+        {
+            "tag": "courses_offered",
+            "patterns": [
+                "What courses are offered at Cambridge Institute of Technology?",
+                "List the programs available at Cambridge Institute of Technology.",
+                "Which degrees can I pursue at this college?",
+                "What undergraduate programs does the college provide?",
+                "What are the postgraduate courses offered?",
+                "Does Cambridge Institute of Technology offer engineering courses?",
+                "Tell me about the different fields of study at this institution."
+            ],
+            "responses": [
+                "Cambridge Institute of Technology offers undergraduate programs in Computer Science & Engineering, Artificial Intelligence & Machine Learning, Information Science & Engineering, Electronics & Communication Engineering, Electrical & Electronics Engineering, Mechanical Engineering, Civil Engineering, Computer Science & Engineering (Internet of Things and Cyber Security including Blockchain Technology), and Computer Science & Engineering (Data Science). Postgraduate programs include Master of Business Administration (MBA), Master of Computer Applications (MCA), and Master of Technology (M.Tech.) in Computer Science & Engineering and VLSI & Embedded Systems."
+            ]
+        },
+        {
+            "tag": "cse_eligibility",
+            "patterns": [
+                "What is the eligibility criteria for Computer Science & Engineering (CSE)?",
+                "How can I apply for CSE at Cambridge Institute of Technology?",
+                "What qualifications are required for the CSE program?",
+                "What are the minimum marks required for CSE admission?",
+                "Do I need to take an entrance exam for CSE?",
+                "Is CET mandatory for Computer Science admission?",
+                "Can diploma students apply for direct second-year admission in CSE?"
+            ],
+            "responses": [
+                "Admission to the Computer Science & Engineering program requires candidates to have passed Karnataka 2nd PUC / 12th standard or equivalent examination with Physics and Mathematics as compulsory subjects, along with Chemistry / Electronics / Biology / Biotechnology / Computer Science, and English as one of the languages of study. Students must have obtained a minimum of 45% marks in aggregate (40% for SC/ST/OBC) in PCM. Additionally, candidates must have appeared for entrance exams such as CET, COMED-K, JEE, or AIEEE."
+            ]
+        },
+        {
+            "tag": "placement_record",
+            "patterns": [
+                "What is the placement record of Cambridge Institute of Technology?",
+                "How are the placements at Cambridge Institute of Technology?",
+                "Which companies visit the campus for recruitment?",
+                "What is the average placement package at Cambridge Institute of Technology?",
+                "Do all students get placed in campus recruitment?",
+                "How does the college help students in securing jobs?",
+                "What is the highest salary package offered at Cambridge Institute of Technology?"
+            ],
+            "responses": [
+                "Cambridge Institute of Technology has an excellent placement record, with over 90% of students getting placed in top multinational companies. The highest salary package offered has been around INR 25 LPA, while the average salary package ranges between INR 6-8 LPA. Some of the major recruiters include Google, Microsoft, Amazon, Infosys, TCS, Wipro, Accenture, and many more. The college also provides career guidance, resume building, and interview preparation workshops to help students excel in their job search."
+            ]
+        },
+        {
+            "tag": "scholarships",
+            "patterns": [
+                "Does Cambridge Institute of Technology offer scholarships?",
+                "Are there any scholarships available?",
+                "Can I get financial aid at Cambridge Institute of Technology?",
+                "What types of scholarships are provided?",
+                "Is there a scholarship for merit-based students?",
+                "Does the college offer need-based scholarships?",
+                "Are there any government-funded scholarships available for students?"
+            ],
+            "responses": [
+                "Yes, Cambridge Institute of Technology provides various scholarship opportunities for meritorious and economically weaker students, including merit-based, government, need-based, and sports & cultural scholarships."
+            ]
+        },
+        {
+            "tag": "research_opportunities",
+            "patterns": [
+                "What research opportunities are available for students?",
+                "Does the college support research projects?",
+                "Can students participate in research initiatives?",
+                "Are there research labs available in the college?",
+                "Can students publish research papers at Cambridge Institute of Technology?",
+                "Does the institute provide funding for student research?",
+                "What kind of research collaborations does the college have?"
+            ],
+            "responses": [
+                "Students have access to research labs, funded projects, patent filing support, and participation in hackathons and innovation challenges."
+            ]
+        },
+        {
+            "tag": "extracurricular_activities",
+            "patterns": [
+                "What extracurricular activities does the college offer?",
+                "Are there any student clubs at Cambridge Institute of Technology?",
+                "What sports and cultural events are available?",
+                "Does the college have technical clubs for students?",
+                "Can students participate in hackathons or coding competitions?",
+                "Are there any music, dance, or drama clubs in the college?",
+                "Does the college support social service activities like NCC or NSS?"
+            ],
+            "responses": [
+                "The college offers technical clubs, cultural & arts societies, sports facilities, and NCC & NSS programs for holistic student development."
+            ]
+        },
+        {
+            "tag": "hostel_facilities",
+            "patterns": [
+                "What are the hostel facilities like at Cambridge Institute of Technology?",
+                "Tell me about the hostel facilities.",
+                "Does the college provide separate hostels for boys and girls?",
+                "Are hostel rooms furnished and well-maintained?",
+                "Does the hostel have WiFi and study areas?",
+                "What food options are available in the hostel mess?",
+                "Are there recreational facilities available in the hostel?"
+            ],
+            "responses": [
+                "The institute provides separate hostels for boys and girls with modern amenities like furnished rooms, WiFi, mess facilities, and recreational areas."
+            ]
+        },
+        {
+            "tag": "international_collaborations",
+            "patterns": [
+                "What international collaborations does the college have?",
+                "Does the institute have tie-ups with foreign universities?",
+                "Are there any global internship opportunities?",
+                "Does the college offer student exchange programs?",
+                "Can students do research in collaboration with international universities?",
+                "Are there any dual-degree programs with foreign institutions?",
+                "Does the college organize international conferences or seminars?"
+            ],
+            "responses": [
+                "The institute has MoUs with foreign universities, global internships, and international conferences & workshops for academic and research collaboration."
+            ]
+        },
+        {
+            "tag": "admission_process",
+            "patterns": [
+                "How can I apply for admission at Cambridge Institute of Technology?",
+                "What is the admission procedure for Cambridge Institute of Technology?",
+                "How do I enroll in a course at this college?",
+                "What documents are required for admission?",
+                "Are there any entrance exams for admission?",
+                "Is there an online application process for admission?",
+                "When does the admission process start each year?"
+            ],
+            "responses": [
+                "To apply, check eligibility, appear for entrance exams, fill out the online application, submit documents, participate in counseling, and complete fee payment."
+            ]
+        },
+        {
+            "tag": "cse_duration",
+            "patterns": [
+                "What is the duration of the Computer Science course?",
+                "How long does it take to complete B.E. in Computer Science?",
+                "What is the course length for Computer Science & Engineering?",
+                "How many semesters are there in the CSE program?",
+                "Is the CSE program a 3-year or 4-year degree?",
+                "Does the Computer Science course include an internship year?",
+                "Is there an option for an accelerated CSE degree?"
+            ],
+            "responses": [
+                "The Bachelor of Engineering (B.E.) in Computer Science & Engineering program is 4 years long."
+            ]
+        },
+        {
+            "tag": "aiml_intake",
+            "patterns": [
+                "What is the intake for the Artificial Intelligence and Machine Learning course?",
+                "How many students are admitted to the AIML program each year?",
+                "What is the student capacity for the AIML course?",
+                "How competitive is admission to the AIML program?",
+                "Is the AIML course intake increasing each year?",
+                "What is the ratio of students to faculty in AIML?",
+                "Are there reserved seats for different categories in AIML admissions?"
+            ],
+            "responses": [
+                "The intake for the Artificial Intelligence and Machine Learning course is 60 students."
+            ]
+        },
+        {
+            "tag": "aiml_duration",
+            "patterns": [
+                "What is the duration of the Artificial Intelligence and Machine Learning course?",
+                "How long is the B.E. in AIML course?",
+                "What is the course length for Artificial Intelligence and Machine Learning?",
+                "How many years does it take to complete AIML?",
+                "Is the AIML course a 3-year or 4-year program?",
+                "Does AIML include an internship year?",
+                "Are there any accelerated degree options for AIML?"
+            ],
+            "responses": [
+                "The Bachelor of Engineering (B.E.) in Artificial Intelligence and Machine Learning program is 4 years long."
+            ]
+        },
+        {
+            "tag": "aiml_career_prospects",
+            "patterns": [
+                "What are the career prospects for Artificial Intelligence and Machine Learning graduates?",
+                "What job opportunities are available for AIML graduates?",
+                "Where can AIML graduates work?",
+                "What industries hire AIML professionals?",
+                "Do AIML graduates get good placement opportunities?",
+                "Can AIML graduates work in software development?",
+                "Are there government jobs available for AIML graduates?"
+            ],
+            "responses": [
+                "Graduates have opportunities in data science, machine learning engineering, AI development, and data analysis across multiple industries."
+            ]
+        },
+        {
+            "tag": "aiml_skills_required",
+            "patterns": [
+                "What are the key skills required for Artificial Intelligence and Machine Learning?",
+                "What should I learn to succeed in AIML?",
+                "Which skills are important for an AIML career?",
+                "Do I need to learn programming for AIML?",
+                "Is Python necessary for Artificial Intelligence?",
+                "What mathematical concepts are important for AIML?",
+                "Are data visualization skills useful in AIML?"
+            ],
+            "responses": [
+                "Proficiency in programming languages like Python and R, SQL knowledge, and familiarity with data visualization tools such as Tableau and Power BI are essential."
+            ]
+        },
+        {
+            "tag": "aiml_topics",
+            "patterns": [
+                "What are the key topics covered in Artificial Intelligence and Machine Learning?",
+                "What subjects are taught in the AIML course?",
+                "What will I learn in the Artificial Intelligence and Machine Learning program?",
+                "Does AIML include deep learning concepts?",
+                "Are neural networks part of the AIML syllabus?",
+                "Does the AIML course cover cloud computing?",
+                "What role does cybersecurity play in AIML?"
+            ],
+            "responses": [
+                "The course covers machine learning, cognitive science, pattern recognition, computer vision, cloud computing, and cybersecurity."
+            ]
+        },
+        {
+            "tag": "data_science_career_paths",
+            "patterns": [
+                "What are the career paths for data science graduates?",
+                "What jobs can I get after studying data science?",
+                "Where do data science graduates work?",
+                "Are data scientists in high demand?",
+                "Can data science graduates work in finance?",
+                "What industries hire data science professionals?",
+                "Do data scientists need programming skills?"
+            ],
+            "responses": [
+                "Career paths include roles such as Data Scientist, Data Analyst, Business Analyst, and Data Engineer."
+            ]
+        },
+        {
+            "tag": "data_science_skills",
+            "patterns": [
+                "What are the key skills required for data science?",
+                "What should I learn to become a data scientist?",
+                "Which skills are important for data science careers?",
+                "Do data scientists need to learn Python?",
+                "Is SQL necessary for data science?",
+                "What is the importance of machine learning in data science?",
+                "Are big data technologies useful for data scientists?"
+            ],
+            "responses": [
+                "Skills required include proficiency in Python and R, SQL knowledge, expertise in data visualization tools, and an understanding of machine learning algorithms."
+            ]
+        },
+        {
+            "tag": "data_science_topics",
+            "patterns": [
+                "What are the key topics covered in data science?",
+                "What will I learn in a data science course?",
+                "What subjects are part of the data science curriculum?",
+                "Does data science include machine learning?",
+                "Are statistical methods important in data science?",
+                "Does the data science course cover deep learning?",
+                "What role does data preprocessing play in data science?"
+            ],
+            "responses": [
+                "Topics include data preprocessing, data visualization, machine learning, and statistical modeling."
+            ]
+        },
+        {
+            "tag": "cse_advantages",
+            "patterns": [
+                "What are the advantages of joining the Computer Science & Engineering department?",
+                "Why should I choose CSE at Cambridge Institute of Technology?",
+                "What benefits does the CSE department offer?",
+                "What makes CSE a good choice?",
+                "Is CSE a good branch for job opportunities?",
+                "What are the specializations in CSE?",
+                "Why is Computer Science so popular?"
+            ],
+            "responses": [
+                "The Computer Science & Engineering (CSE) department offers several advantages, including:",
+                "- Access to cutting-edge technology and research opportunities.",
+                "- Industry collaborations with top tech companies for internships and placements.",
+                "- Well-structured curriculum covering AI, ML, Data Science, Cybersecurity, and Cloud Computing.",
+                "- Strong alumni network providing mentorship and career guidance.",
+                "- High placement rates with lucrative salary packages."
+            ]
+        },
+        {
+            "tag": "cse_infrastructure",
+            "patterns": [
+                "What infrastructure is available for the Computer Science & Engineering department?",
+                "Tell me about the facilities in the CSE department.",
+                "What labs and resources are available for CSE students?",
+                "Does the CSE department have AI and ML labs?",
+                "Are there specialized research centers in CSE?",
+                "What are the computing resources available for students?",
+                "Does the CSE department offer cloud computing labs?"
+            ],
+            "responses": [
+                "The CSE department boasts state-of-the-art infrastructure, including:",
+                "- Advanced computer labs equipped with high-performance systems and software tools.",
+                "- AI and Machine Learning research labs for practical learning and projects.",
+                "- Dedicated cloud computing and cybersecurity labs.",
+                "- Access to online learning platforms, coding contests, and hackathons.",
+                "- High-speed internet and digital libraries for research."
+            ]
+        },
+        {
+            "tag": "cse_faculty",
+            "patterns": [
+                "Who are the faculty members in the Computer Science & Engineering department?",
+                "What are the qualifications of CSE faculty?",
+                "Who teaches in the CSE department?",
+                "Are there industry professionals teaching in CSE?",
+                "Does the faculty guide students in research?",
+                "How experienced are the CSE professors?",
+                "Do CSE faculty members have PhDs?"
+            ],
+            "responses": [
+                "The department has a team of highly qualified and experienced faculty members with expertise in various domains, including:",
+                "- Professors with PhDs from reputed universities.",
+                "- Industry experts who provide real-world insights into emerging technologies.",
+                "- Faculty actively engaged in research, patents, and publications.",
+                "- Mentors who guide students through competitive exams, research projects, and career planning."
+            ]
+        },
+        {
+            "tag": "cse_career_opportunities",
+            "patterns": [
+                "What opportunities are available for students after completing Computer Science & Engineering?",
+                "What job roles can CSE graduates take?",
+                "What career options are there for CSE students?",
+                "Where do most CSE graduates get placed?",
+                "Can CSE graduates work in AI and Data Science?",
+                "Are there good government jobs for CSE graduates?",
+                "What are the most in-demand skills for CSE graduates?"
+            ],
+            "responses": [
+                "Graduates from the CSE department have numerous career opportunities, including:",
+                "- Software development roles in top tech firms like Google, Microsoft, and Amazon.",
+                "- Data science, AI/ML engineering, cybersecurity, and cloud computing jobs.",
+                "- Opportunities for higher studies in premier institutions globally.",
+                "- Entrepreneurship and startup incubation support for innovative ideas.",
+                "- Government and PSU jobs through competitive exams."
+            ]
+        },
+        {
+            "tag": "ece_advantages",
+            "patterns": [
+                "What are the advantages of joining the Electronics & Communication Engineering department?",
+                "Why should I choose ECE at Cambridge Institute of Technology?",
+                "What benefits does the ECE department offer?",
+                "Is ECE a good choice for research?",
+                "What are the major focus areas in ECE?",
+                "Are there strong industry connections in ECE?",
+                "Is ECE useful for working in AI and IoT?"
+            ],
+            "responses": [
+                "The ECE department provides multiple advantages, such as:",
+                "- Exposure to VLSI, embedded systems, IoT, and robotics.",
+                "- Strong industry tie-ups for training and placements.",
+                "- Hands-on experience with circuit design, communication systems, and AI in electronics.",
+                "- High demand in telecom, semiconductor, and automation industries.",
+                "- Research opportunities in 5G, IoT, and embedded technologies."
+            ]
+        },
+        {
+            "tag": "ece_infrastructure",
+            "patterns": [
+                "What infrastructure is available for the Electronics & Communication Engineering department?",
+                "Tell me about the facilities in the ECE department.",
+                "What labs and resources are available for ECE students?",
+                "Are there VLSI and embedded systems labs in ECE?",
+                "Does ECE have an IoT and robotics research center?",
+                "What are the specialized software tools available in ECE?",
+                "Are there wireless communication labs in ECE?"
+            ],
+            "responses": [
+                "The ECE department is equipped with:",
+                "- High-end laboratories for VLSI, embedded systems, and communication networks.",
+                "- RF and Microwave labs for wireless communication research.",
+                "- IoT and robotics labs for hands-on learning.",
+                "- Advanced software tools for circuit simulation and PCB design.",
+                "- Research centers for AI in electronics and wireless technology."
+            ]
+        },
+        {
+            "tag": "ece_faculty",
+            "patterns": [
+                "Who are the faculty members in the Electronics & Communication Engineering department?",
+                "What are the qualifications of ECE faculty?",
+                "Who teaches in the ECE department?",
+                "Are ECE faculty members involved in research?",
+                "Do ECE faculty members have industry experience?",
+                "How qualified are the professors in ECE?",
+                "Does the ECE department offer faculty mentorship?"
+            ],
+            "responses": [
+                "The department has experienced faculty members specializing in:",
+                "- VLSI and semiconductor technology.",
+                "- Embedded systems and IoT.",
+                "- Wireless communication and 5G networks.",
+                "- Signal processing and AI in electronics.",
+                "- Industry collaborations for real-world project experience."
+            ]
+        },
+        {
+            "tag": "ece_career_opportunities",
+            "patterns": [
+                "What opportunities are available for students after completing Electronics & Communication Engineering?",
+                "What job roles can ECE graduates take?",
+                "What career options are there for ECE students?",
+                "Which companies hire ECE graduates?",
+                "Are there government jobs for ECE graduates?",
+                "Can ECE graduates work in AI and robotics?",
+                "What is the scope of ECE in India?"
+            ],
+            "responses": [
+                "ECE graduates can explore multiple career paths, such as:",
+                "- Jobs in core electronics companies like Texas Instruments, Intel, and Qualcomm.",
+                "- Telecom sector opportunities with firms like Ericsson, Nokia, and Huawei.",
+                "- Embedded systems and IoT jobs in automation and smart device industries.",
+                "- Government jobs in ISRO, DRDO, and BEL.",
+                "- Higher studies in VLSI, communication networks, and AI in electronics."
+            ]
+        },
+        {
+            "tag": "mech_advantages",
+            "patterns": [
+                "What are the advantages of joining the Mechanical Engineering department?",
+                "Why should I choose Mechanical Engineering?",
+                "What benefits does the Mechanical Engineering department offer?",
+                "Is Mechanical Engineering a good career choice?",
+                "How does Mechanical Engineering help in the industry?",
+                "What makes Mechanical Engineering unique?",
+                "What are the top reasons to study Mechanical Engineering?"
+            ],
+            "responses": [
+                "The Mechanical Engineering department at Cambridge Institute of Technology provides a strong foundation in core engineering concepts and hands-on experience with modern tools. The advantages include:",
+                "- Exposure to real-world industrial problems through internships and projects.",
+                "- Opportunity to specialize in automotive, robotics, and thermal engineering.",
+                "- Strong placement opportunities in industries like manufacturing, aerospace, and energy."
+            ]
+        },
+        {
+            "tag": "mech_infrastructure",
+            "patterns": [
+                "What infrastructure facilities are available for Mechanical Engineering students?",
+                "Tell me about the labs and facilities in the Mechanical Engineering department.",
+                "What resources are available for Mechanical Engineering students?",
+                "Are there any advanced workshops for Mechanical Engineering?",
+                "What kind of equipment is available for Mechanical students?",
+                "Does the Mechanical department have CAD and simulation labs?",
+                "Are there any industry collaborations in the Mechanical Engineering department?"
+            ],
+            "responses": [
+                "Mechanical Engineering students have access to state-of-the-art laboratories, including:",
+                "- Advanced CAD/CAM Lab for design and simulation.",
+                "- Thermal Engineering and Fluid Mechanics Labs.",
+                "- Fully-equipped workshops for hands-on fabrication and prototyping."
+            ]
+        },
+        {
+            "tag": "mech_career_opportunities",
+            "patterns": [
+                "What are the career opportunities after completing Mechanical Engineering?",
+                "What jobs can Mechanical Engineering graduates get?",
+                "Where can Mechanical Engineers work?",
+                "Which industries hire Mechanical Engineers?",
+                "Are there government jobs for Mechanical Engineers?",
+                "Can Mechanical Engineers work in robotics?",
+                "What are the best career options for Mechanical Engineering graduates?"
+            ],
+            "responses": [
+                "Graduates can pursue careers in manufacturing, automotive, robotics, and energy sectors. Popular job roles include:",
+                "- Mechanical Design Engineer",
+                "- Automotive Engineer",
+                "- Aerospace Engineer",
+                "- Project Manager"
+            ]
+        },
+        {
+            "tag": "eee_advantages",
+            "patterns": [
+                "What are the advantages of joining the Electrical & Electronics Engineering department?",
+                "Why should I choose Electrical & Electronics Engineering?",
+                "What benefits does the Electrical & Electronics Engineering department offer?",
+                "How is EEE different from other branches?",
+                "What makes EEE a good field to study?",
+                "Is Electrical & Electronics Engineering useful for future technologies?",
+                "What are the top reasons to choose Electrical & Electronics Engineering?"
+            ],
+            "responses": [
+                "The Electrical & Electronics Engineering department offers:",
+                "- Training in core electrical systems, power electronics, and control systems.",
+                "- Exposure to renewable energy, smart grids, and automation technologies.",
+                "- Hands-on experience with industry-grade electrical components and software."
+            ]
+        },
+        {
+            "tag": "eee_infrastructure",
+            "patterns": [
+                "What infrastructure facilities are available for Electrical & Electronics Engineering students?",
+                "Tell me about the labs and facilities in the Electrical & Electronics Engineering department.",
+                "What resources are available for Electrical & Electronics Engineering students?",
+                "Are there specialized labs for electrical and electronics students?",
+                "Does the EEE department have a power systems lab?",
+                "What kind of software tools are available for EEE students?",
+                "Are there practical workshops in the EEE department?"
+            ],
+            "responses": [
+                "Students have access to well-equipped laboratories, including:",
+                "- Power Systems and Machines Lab.",
+                "- Control Systems and Automation Lab.",
+                "- High Voltage and Renewable Energy Lab."
+            ]
+        },
+        {
+            "tag": "eee_career_opportunities",
+            "patterns": [
+                "What are the career opportunities after completing Electrical & Electronics Engineering?",
+                "What jobs can Electrical & Electronics Engineering graduates get?",
+                "Where can Electrical & Electronics Engineers work?",
+                "Which companies hire EEE graduates?",
+                "Are there government jobs for EEE graduates?",
+                "Can EEE graduates work in automation and robotics?",
+                "What are the best job roles for Electrical & Electronics Engineers?"
+            ],
+            "responses": [
+                "Graduates can work in power generation, automation, telecommunications, and embedded systems. Popular job roles include:",
+                "- Electrical Engineer",
+                "- Power Systems Engineer",
+                "- Automation Engineer",
+                "- Embedded Systems Developer"
+            ]
+        },
+        {
+            "tag": "civil_advantages",
+            "patterns": [
+                "What are the advantages of joining the Civil Engineering department?",
+                "Why should I choose Civil Engineering?",
+                "What benefits does the Civil Engineering department offer?",
+                "Is Civil Engineering a good career option?",
+                "What makes Civil Engineering unique?",
+                "How does Civil Engineering contribute to infrastructure development?",
+                "What are the top reasons to study Civil Engineering?"
+            ],
+            "responses": [
+                "The Civil Engineering department provides:",
+                "- Training in structural, environmental, and transportation engineering.",
+                "- Opportunities to work on large-scale construction projects.",
+                "- Strong industry collaborations for internships and research projects."
+            ]
+        },
+        {
+            "tag": "civil_infrastructure",
+            "patterns": [
+                "What infrastructure facilities are available for Civil Engineering students?",
+                "Tell me about the labs and facilities in the Civil Engineering department.",
+                "What resources are available for Civil Engineering students?",
+                "Does Civil Engineering have a structural analysis lab?",
+                "Are there surveying and geotechnical labs in Civil Engineering?",
+                "What kind of software tools are used in Civil Engineering?",
+                "Does the Civil department have modern testing labs?"
+            ],
+            "responses": [
+                "Civil Engineering students have access to specialized labs, including:",
+                "- Structural Analysis and Material Testing Lab.",
+                "- Geotechnical and Surveying Lab.",
+                "- Environmental Engineering and Hydraulics Lab."
+            ]
+        },
+        {
+            "tag": "civil_career_opportunities",
+            "patterns": [
+                "What are the career opportunities after completing Civil Engineering?",
+                "What jobs can Civil Engineering graduates get?",
+                "Where can Civil Engineers work?",
+                "Which companies hire Civil Engineers?",
+                "Can Civil Engineers work in government jobs?",
+                "What are the highest paying jobs for Civil Engineers?",
+                "Is there demand for Civil Engineers in the future?"
+            ],
+            "responses": [
+                "Graduates can pursue careers in construction, infrastructure development, and urban planning. Common job roles include:",
+                "- Structural Engineer",
+                "- Construction Manager",
+                "- Environmental Engineer",
+                "- Transportation Engineer"
+            ]
+        },
+        {
+            "tag": "ise_advantages",
+            "patterns": [
+                "What are the advantages of joining the Information Science & Engineering department?",
+                "Why should I choose Information Science & Engineering?",
+                "What benefits does the Information Science & Engineering department offer?",
+                "Is Information Science & Engineering a good branch?",
+                "How is ISE different from CSE?",
+                "What are the career benefits of studying Information Science?",
+                "What makes ISE a strong career choice?"
+            ],
+            "responses": [
+                "The Information Science & Engineering department offers:",
+                "- Strong foundation in software development, databases, and cloud computing.",
+                "- Specializations in data science, cybersecurity, and artificial intelligence.",
+                "- Excellent placement opportunities in IT and software industries."
+            ]
+        },
+        {
+            "tag": "ise_infrastructure",
+            "patterns": [
+                "What infrastructure facilities are available for Information Science & Engineering students?",
+                "Tell me about the labs and facilities in the Information Science & Engineering department.",
+                "What resources are available for Information Science & Engineering students?",
+                "Does the ISE department have high-performance computing labs?",
+                "What kind of networking and cybersecurity labs are available in ISE?",
+                "Are there cloud computing labs in ISE?",
+                "Does ISE provide access to research and industry tools?"
+            ],
+            "responses": [
+                "Students have access to modern computing facilities, including:",
+                "- High-performance computing labs.",
+                "- Networking and Security Lab.",
+                "- Software Development and Data Analytics Lab."
+            ]
+        },
+        {
+            "tag": "ise_career_opportunities",
+            "patterns": [
+                "What are the career opportunities after completing Information Science & Engineering?",
+                "What jobs can Information Science & Engineering graduates get?",
+                "Where can Information Science & Engineering graduates work?",
+                "Which companies hire Information Science graduates?",
+                "Are there government jobs for ISE graduates?",
+                "What are the highest paying jobs for Information Science Engineers?",
+                "What are the trending careers for ISE graduates?"
+            ],
+            "responses": [
+                "Graduates can work in IT companies, startups, and research organizations. Job roles include:",
+                "- Software Developer",
+                "- Data Analyst",
+                "- Cybersecurity Engineer",
+                "- Cloud Engineer"
+            ]
+        }
+    ]
+}
